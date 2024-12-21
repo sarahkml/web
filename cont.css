@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(to right, #CE93D8, #EEEEEE);
+}
+input {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px;
+    box-shadow: 5px 6px 5px -2px #9E9E9E;
+}
+input[placeholder="Email"] {
+    margin-left: 20px;
+}
+input[placeholder="Subject"] {
+    width: 359px;
+}
+.parent {
+    
+    padding: 30px;
+    color: Black;
+    position: relative;
+}
+.child1 {
+    background-color: white;
+    width:fit-content;
+    padding: 20px;
+    border-radius: 10px;
+   box-shadow: 5px 6px 5px -2px #9E9E9E;
+}
+textarea {
+    width: 345px;
+    height: 160px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: gray;
+    box-shadow: 5px 6px 5px -2px #9E9E9E;
+}
+
+button{
+    background-color: #a95bb7;
+    color: white;
+    box-shadow: 5px 6px 5px -2px #9E9E9E;
+    width: 75px;
+    border-radius: 9px;
+    padding: 7px;
+    border: none;
+    margin-left: 10px;
+}
+.child2 {
+    position: absolute;
+    top: 60px;
+    left: 451px;
+    background-color: #a95bb7;
+    padding: 10px;
+    height: 420px;
+    border-radius: 10px;
+    width: 230px;
+    color: white;
+    box-shadow: 5px 6px 5px -2px #BDBDBD;
+}
+#Address {
+    width: 20px;
+    position: relative;
+    bottom: 9px;
+    right: 34px;
+}
+.addressparent::before {
+    position: relative;
+    content: "";
+    background-color: #E1BEE7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+#phone {
+    width: 18px;
+    position: relative;
+    bottom: 9px;
+    right: 33px;
+}
+.phoneparent::before {
+    position: relative;
+    content: "";
+    background-color: #E1BEE7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.emailparent::before {
+    position: relative;
+    content: "";
+    background-color: #E1BEE7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+#email {
+    width: 18px;
+    position: relative;
+    bottom: 9px;
+    right: 33px;
+}
+.webparent::before {
+    position: relative;
+    content: "";
+    background-color: #E1BEE7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+#website {
+    width: 18px;
+    position: relative;
+    bottom: 10px;
+    right: 33px;
+}
+#decor {
+    width: 300px;
+    position: relative;
+    left: 760px;
+    bottom: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px -2px #9E9E9E;
+}
+nav { 
+    position: sticky; 
+    top: 0; 
+    background-color: #6F6977; 
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+} 
+nav a:hover { 
+    color: #B583BC; 
+} 
+footer a:hover { 
+    color: #B583BC; 
+} 
+nav a, 
+    footer a { 
+        text-decoration: none; 
+        display: inline-block; 
+        color: white; 
+        padding: 10px; 
+        margin: 0; 
+        font-size: 19px;
+    } 
+     
+    footer { 
+        text-align: center; 
+        background-color: #6F6977; 
+        padding: 10px 0; 
+        margin-top: 20px; 
+        border-radius: 10px; 
+    }
+    nav div a { 
+        color: white; 
+        background-color: #B583BC; 
+        border-radius: 12px; 
+        width: 100px; 
+        cursor: pointer; 
+        text-align: center; 
+        display: inline-block; 
+        padding: 10px; 
+    } 
+    a.name { 
+        font-family: 'Arial', sans-serif;
+        font-size: 40px;
+        color: #2C3E50;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        margin: 0 auto; 
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+        
+    }
+    a.name:hover {
+        animation: glowEffect 1.5s infinite;
+        color: #B583BC;
+        cursor: pointer;
+    }
+    @keyframes glowEffect {
+        0% { text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+        50% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px #B583BC; }
+        100% { text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+    }
+    nav div a:hover { 
+        color: #6F6977; 
+        background-color: #c7a6cb;
+    }

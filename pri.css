@@ -1,0 +1,74 @@
+nav { 
+    position: sticky; 
+    top: 0; 
+    background-color: #6F6977; 
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+} 
+nav a:hover { 
+    color: #B583BC; 
+} 
+footer a:hover { 
+    color: #B583BC; 
+} 
+nav a, 
+    footer a { 
+        text-decoration: none; 
+        display: inline-block; 
+        color: white; 
+        padding: 10px; 
+        margin: 0; 
+        font-size: 20px;
+    } 
+     
+    footer { 
+        text-align: center; 
+        background-color: #6F6977; 
+        padding: 10px 0; 
+        margin-top: 20px; 
+        border-radius: 10px; 
+    }
+    nav div a { 
+        color: white; 
+        background-color: #B583BC; 
+        border-radius: 12px; 
+        width: 100px; 
+        cursor: pointer; 
+        text-align: center; 
+        display: inline-block; 
+        padding: 10px; 
+    } 
+    nav div a:hover { 
+        color: #6F6977; 
+        background-color: #c7a6cb;
+    }
+    body {
+        background: linear-gradient(to right, #CE93D8, #EEEEEE); 
+    }
+    a.name { 
+        font-family: 'Arial', sans-serif;
+        font-size: 40px;
+        color: #2C3E50;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        margin: 0 auto; 
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+        
+    }
+    a.name:hover {
+        animation: glowEffect 1.5s infinite;
+        color: #B583BC;
+        cursor: pointer;
+    }
+    @keyframes glowEffect {
+        0% { text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+        50% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px #B583BC; }
+        100% { text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+    }
