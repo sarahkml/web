@@ -1,3 +1,4 @@
+@media screen and (max-width: 600px){
 nav { 
     position: sticky; 
     top: 0; 
@@ -165,3 +166,4 @@ footer h2:hover{
 body {
     background:  linear-gradient(to right,#B583BC, #EEEEEE);
  }
+}
