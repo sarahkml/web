@@ -8,11 +8,9 @@ nav {
     justify-content: space-between; 
     padding: 20px; 
 } 
- 
 nav a:hover { 
     color: #B583BC; 
 } 
- 
 nav div a:hover { 
     color: #6F6977; 
     background-color: #c7a6cb;
@@ -25,7 +23,6 @@ nav div {
     right: 5px; 
     margin: 2px; 
 } 
- 
 nav div a { 
     color: white; 
     background-color: #B583BC; 
@@ -36,7 +33,6 @@ nav div a {
     display: inline-block; 
     padding: 10px; 
 } 
-
 a.name { 
     font-family: 'Arial', sans-serif;
     font-size: 40px;
@@ -45,15 +41,13 @@ a.name {
     letter-spacing: 5px;
     font-weight: bold;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    margin: 0 auto; 
+    margin: auto; 
 }
-
 a.name:hover {
     animation: glowEffect 1.5s infinite;
     color: #B583BC;
     cursor: pointer;
 }
-
 @keyframes glowEffect {
     0% { text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
     50% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px #B583BC; }
@@ -73,25 +67,22 @@ a.name:hover {
 .bb{
     font-size: 28px;
     color:  #ffffff;
-    filter: blur(1.4px);
-    text-shadow: 0 0 1px;
     backdrop-filter: blur(4.5px);
     border-radius: 8px;
-
 }
+
 nav a, 
 footer a { 
     text-decoration: none; 
     display: inline-block; 
     color: white; 
     padding: 10px; 
-    margin: 0; 
     font-size: 20px;
 } 
 footer { 
     text-align: center; 
     background-color: #6F6977; 
-    padding: 10px 0; 
+    padding: 10px; 
     margin-top: 20px; 
     border-radius: 10px; 
 }
@@ -163,5 +154,5 @@ footer h2:hover{
 }
 body {
     background:  linear-gradient(to right,#B583BC, #EEEEEE);
- }
+}
 
