@@ -55,7 +55,7 @@ a.name:hover {
 }
 .back{
     background-image: url(rar.jpg);
-    width: 100%; 
+    /* width: 100%;  */
     height: 520px; 
     background-size: cover;
     margin: 10px; 
@@ -63,6 +63,7 @@ a.name:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-right: 20px;
 }
 .bb{
     font-size: 28px;
